@@ -3,6 +3,7 @@ module "exchange" {
   zone_id = var.zone_id
   name    = var.name
   mx      = var.mx
+  spf     = var.spf
 }
 
 module "mdm" {
